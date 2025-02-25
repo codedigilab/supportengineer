@@ -37,6 +37,12 @@
                      </a>
                  </li>
 
+                 <li class="nav-item">
+                     <a class="nav-link menu-link collapsed" href="/admin/laptop">
+                        <span data-key="t-laptop">Laptop</span>
+                     </a>
+                 </li>
+
                  <li class="menu-title"><i class="ti ti-dots"></i> <span data-key="t-apps">Apps</span></li>
 
                  <li class="nav-item">
