@@ -18,7 +18,7 @@
                         class="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5">
                         <li class="menu-item position-relative">
 
-                            <a href="index.html" class="fw_500">
+                            <a href="/" class="fw_500">
                                 Home
                             </a>
 
@@ -32,7 +32,7 @@
                                     <a href="service.html" class="fw_500 white-clr">All Service</a>
                                 </li>
                                 <li class="menu-link py-1">
-                                    <a href="ecommerce.html" class="fw_500 white-clr">E-Commerce</a>
+                                    <a href="/" class="fw_500 white-clr">E-Commerce</a>
                                 </li>
                             </ul>
                         </li>
@@ -43,10 +43,10 @@
                             </button>
                             <ul style="border-radius: 10px;" class="sub-menu px-lg-4 py-xxl-3 py-2">
                                 <li class="menu-link py-1">
-                                    <a href="about.html" class="fw_500 white-clr">About Us</a>
+                                    <a href="/" class="fw_500 white-clr">About Us</a>
                                 </li>
                                 <li class="menu-link py-1">
-                                    <a href="faq.html" class="fw_500 white-clr">Faq List</a>
+                                    <a href="/" class="fw_500 white-clr">Faq List</a>
                                 </li>
                                 <li class="menu-link py-1">
                                     <a href="#" class="fw_500 white-clr">Blog</a>
@@ -54,12 +54,12 @@
                             </ul>
                         </li>
                         <li class="menu-item position-relative">
-                            <a href="contact.html" class="fw_500">
+                            <a href="/" class="fw_500">
                                 Contact Us
                             </a>
                         </li>
                         <li class="menu-item position-relative">
-                            <a href="contact.html" class="fw_500">
+                            <a href="/" class="fw_500">
                                 Login
                             </a>
                         </li>
