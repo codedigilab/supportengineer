@@ -21,3 +21,4 @@ Route::get('/admin', function () {
 });
 
 Route::get('/admin/laptop', [LaptopController::class, 'showJsonData']);
+Route::post('/admin/laptop', [LaptopController::class, 'handleForm'])->name('submit');

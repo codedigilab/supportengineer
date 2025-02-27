@@ -48,7 +48,20 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h5 class="card-title mb-0">Basic Datatables</h5>
+                                @if(session('success'))
+    <div>{{ session('success') }}</div>
+@endif
+                                <form action="{{ route('submit') }}" method="POST">
+    @csrf
+    <label for="name">Name:</label>
+    <input type="text" name="EmployName" required>
+
+    <label for="email">Email:</label>
+    <input type="text" name="EmployNumber" required>
+
+    <button type="submit">Submit</button>
+</form>
+                                    <h5 class="card-title mb-0"><a href="AddLaptop.blade.php">Basic Datatables</a></h5>
                                 </div>
                                 <div class="card-body">
                                
@@ -68,8 +81,13 @@
                                                 <th>Designation</th>
                                                 <th>Device Name</th>
                                                 <th>Adopter No</th>
-                                                <th>Status</th>
-                                                <th>Priority</th>
+                                                <th>Adapter Brand</th>
+                                                <th>Product ID</th>
+                                                <th>Laptop Model</th>
+                                                <th>Employ Status</th>
+                                                <th>Printer Model</th>
+                                                <th>Remark</th>
+                                                <th>Date</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -89,8 +107,13 @@
                                                 <td>{{ $item['Designation'] }}</td>
                                                 <td>{{ $item['DeviceName'] }}</td>
                                                 <td>{{ $item['AdopterNo'] }}</td>
-                                                <td><span class="badge bg-warning-subtle text-warning">Inprogress</span></td>
-                                                <td><span class="badge bg-success">Low</span></td>
+                                                <td>{{ $item['AdapterBrand'] }}</td>
+                                                <td>{{ $item['ProductId'] }}</td>
+                                                <td>{{ $item['LaptopModel'] }}</td>
+                                                <td>{{ $item['EmployStatus'] }}</td>
+                                                <td>{{ $item['PrinterModel'] }}</td>
+                                                <td>{{ $item['Remark'] }}</td>
+                                                <td>{{ $item['Date'] }}</td>
                                                 <td>
                                                     <div class="dropdown d-inline-block">
                                                         <button class="btn btn-subtle-secondary btn-sm dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
