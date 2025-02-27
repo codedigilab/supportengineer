@@ -3,12 +3,9 @@
 
 
 <head>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
-<!--datatable responsive css-->
-<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap.min.css">
-
-<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css">
-
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css">
     @include('admin/include.head')
 </head>
 
@@ -20,9 +17,6 @@
         @include('admin/include.sidebar')
         <!-- Vertical Overlay-->
         @include('admin/include.header')
-
-      
-
 
         <!-- ============================================================== -->
         <!-- Start right Content here -->
@@ -577,7 +571,7 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-3.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-3.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-3')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -593,11 +587,11 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-4.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-4')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-5.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-5')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -613,15 +607,15 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-6.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-6.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-6')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-7.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-7.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-7')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-8.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-8.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-8')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -637,11 +631,11 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-6.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-6.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-6')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-7.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-7.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-7')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -657,7 +651,7 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-2.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-2')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -673,19 +667,19 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-5.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-5')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-6.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-6.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-6')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-7.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-7.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-7')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-8.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-8.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-8')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -701,11 +695,11 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-4.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-4')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-5.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-5')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -721,15 +715,15 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-3.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-3.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-3')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-10.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-10.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-10')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-9.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-9.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-9')}}" alt="" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -745,15 +739,15 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-5.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-5')}}" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-9.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-9.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-9')}}" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-10.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-10.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-10')}}" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -769,7 +763,7 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-2.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-2')}}" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -785,15 +779,15 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-6.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-6.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-6')}}" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-7.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-7.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-7')}}" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-8.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-8.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-8')}}" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -809,11 +803,11 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-6.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-6.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-6')}}" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-7.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-7.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-7')}}" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -829,7 +823,7 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-2.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-2')}}" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -845,19 +839,19 @@
                                                 <td>
                                                     <div class="avatar-group">
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-5.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-5')}}" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-6.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-6.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-6')}}" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-7.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-7.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-7')}}" class="rounded-circle avatar-xxs">
                                                         </a>
 
                                                         <a href="javascript: void(0);" class="avatar-group-item" data-img="avatar-8.jpg" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Username">
-                                                            <img src="assets/images/users/avatar-8.jpg" alt="" class="rounded-circle avatar-xxs">
+                                                            <img src="{{asset('assets/images/users/avatar-8')}}" class="rounded-circle avatar-xxs">
                                                         </a>
                                                     </div>
                                                 </td>
@@ -1396,7 +1390,7 @@
                                                 <td>01</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/btc.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/btc.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Bitcoin (BTC)</a>
                                                     </div>
                                                 </td>
@@ -1416,7 +1410,7 @@
                                                 <td>02</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/eth.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/eth.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Ethereum (ETH)</a>
                                                     </div>
                                                 </td>
@@ -1436,7 +1430,7 @@
                                                 <td>03</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/ltc.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/ltc.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Litecoin (LTC)</a>
                                                     </div>
                                                 </td>
@@ -1456,7 +1450,7 @@
                                                 <td>04</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/xmr.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/xmr.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Monero (XMR)</a>
                                                     </div>
                                                 </td>
@@ -1476,7 +1470,7 @@
                                                 <td>05</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/ant.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/ant.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Aragon (ANT)</a>
                                                     </div>
                                                 </td>
@@ -1496,7 +1490,7 @@
                                                 <td>06</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/sol.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/sol.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Solana (SOL)</a>
                                                     </div>
                                                 </td>
@@ -1516,7 +1510,7 @@
                                                 <td>07</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/fil.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/fil.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Filecoin (FIL)</a>
                                                     </div>
                                                 </td>
@@ -1536,7 +1530,7 @@
                                                 <td>08</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/fil.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/fil.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Filecoin (FIL)</a>
                                                     </div>
                                                 </td>
@@ -1556,7 +1550,7 @@
                                                 <td>09</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/aave.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/aave.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Aave (AAVE)</a>
                                                     </div>
                                                 </td>
@@ -1576,7 +1570,7 @@
                                                 <td>10</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/ada.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/ada.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Cardano (ADA)</a>
                                                     </div>
                                                 </td>
@@ -1596,7 +1590,7 @@
                                                 <td>11</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/fil.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/fil.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Filecoin (FIL)</a>
                                                     </div>
                                                 </td>
@@ -1616,7 +1610,7 @@
                                                 <td>12</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/aave.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/aave.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Aave (AAVE)</a>
                                                     </div>
                                                 </td>
@@ -1636,7 +1630,7 @@
                                                 <td>13</td>
                                                 <td>
                                                     <div class="d-flex align-items-center fw-medium">
-                                                        <img src="assets/images/svg/crypto-icons/ada.svg" alt="" class="avatar-xxs me-2">
+                                                        <img src="{{asset('assets/images/svg/crypto-icons/ada.svg')}}" alt="" class="avatar-xxs me-2">
                                                         <a href="javascript:void(0);" class="currency_name">Cardano (ADA)</a>
                                                     </div>
                                                 </td>
@@ -3477,26 +3471,26 @@
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image" id="sidebarimg-01" value="img-1">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-01">
-                                    <img src="assets/images/sidebar/img-sm-1.jpg" alt="" class="avatar-md w-auto object-cover">
+                                    <img src="{{asset('assets/images/sidebar/img-sm-1')}}" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
 
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image" id="sidebarimg-02" value="img-2">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-02">
-                                    <img src="assets/images/sidebar/img-sm-2.jpg" alt="" class="avatar-md w-auto object-cover">
+                                    <img src="{{asset('assets/images/sidebar/img-sm-2')}}" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image" id="sidebarimg-03" value="img-3">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-03">
-                                    <img src="assets/images/sidebar/img-sm-3.jpg" alt="" class="avatar-md w-auto object-cover">
+                                    <img src="{{asset('assets/images/sidebar/img-sm-3')}}" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image" id="sidebarimg-04" value="img-4">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-04">
-                                    <img src="assets/images/sidebar/img-sm-4.jpg" alt="" class="avatar-md w-auto object-cover">
+                                    <img src="{{asset('assets/images/sidebar/img-sm-4')}}" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                         </div>
@@ -3582,9 +3576,9 @@
     </div>
 
     <!-- JAVASCRIPT -->
-    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
+    <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugins.js')}}"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <!--datatable js-->
@@ -3598,8 +3592,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
 
-    <script src="assets/js/pages/datatables.init.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="{{asset('assets/js/pages/datatables.init.js')}}"></script>
+    <script src="{{asset('assets/js/app.js')}}"></script>
 </body>
 
 </html>

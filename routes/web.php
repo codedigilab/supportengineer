@@ -10,10 +10,14 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/admin/a', function () {
+
+
+
+//adminarea
+Route::get('/admin', function () {
     return view('admin/index');
 });
 
-Route::get('/admin', function () {
+Route::get('/admin/laptop', function () {
     return view('admin/laptop');
 });
