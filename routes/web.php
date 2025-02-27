@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LaptopController;
 
 Route::get('/welcome', function () {
     return view('welcome');
@@ -13,11 +14,10 @@ Route::get('/', function () {
 
 
 
+
 //adminarea
 Route::get('/admin', function () {
     return view('admin/index');
 });
 
-Route::get('/admin/laptop', function () {
-    return view('admin/laptop');
-});
+Route::get('/admin/laptop', [LaptopController::class, 'showJsonData']);
