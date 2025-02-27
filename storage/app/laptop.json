@@ -1026,25 +1026,7 @@
         "Date": "Nil"
     },
     {
-        "LaptopType": "Company Laptops",
-        "EmployCode": "Nil",
-        "EmployEMailId": "deepak.23186@gmail.com",
-        "EmployNumber": 9873963596,
-        "EmployName": "Deepak Singh",
-        "Designation": "Area Manager",
-        "DeviceName": "HP ProBook 640 G2",
-        "AdopterNo": "HP",
-        "AdapterBrand": "HP",
-        "ProductId": "00391-70000-00000-AA835",
-        "LaptopModel": "HP ProBook 640 G2",
-        "id": 58,
-        "EmployStatus": "Active",
-        "PrinterModel": "Nil",
-        "Remark": "Nil",
-        "Date": "Nil"
-    },
-    {
-        "LaptopType": "Farhan",
+        "LaptopType": "Company Laptop",
         "EmployCode": "Nil",
         "EmployEMailId": "deepak.23186@gmail.com",
         "EmployNumber": 9873963596,
