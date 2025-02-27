@@ -20,7 +20,7 @@ class LaptopController extends Controller
     return view("admin/laptop", compact("data"));
 }
 
-// Display the form
+// Display the
 
 
 // Handle form submission
