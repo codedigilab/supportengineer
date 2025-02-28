@@ -35,7 +35,7 @@ public function handleForm(Request $request)
     // Read the existing JSON data from storage
     //$jsonPath = storage_path('public\laptop.json');
     //$jsonPath= storage_path(public_path('laptop.json'));
-    $jsonPath = storage_path('app/laptop.json');
+    $jsonPath = storage_path('app/data.json');
     $data = json_decode(File::get($jsonPath), true);
 
     // Append new data to the array
