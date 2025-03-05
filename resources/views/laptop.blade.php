@@ -3,20 +3,7 @@
 
 <head>
         @include('Admin/Include.head')
-    <?php
-    $sheet_id = "1SyFDvVPJ6ieDCG4URkw6i4Horb_KbGCQmzAsc_VJsCY";
-    $api_key = "AIzaSyARbSMuMMY5GWue3dAarlWr8sfBX-dbTIg";
-    $range = "laptop";
-    $url = "https://sheets.googleapis.com/v4/spreadsheets/$sheet_id/values/$range?key=$api_key";
-    $response = file_get_contents($url);
-    $data = json_decode($response, true);
-    if (!isset($data['values'])) {
-        die("No data found.");
-    }
-    $headers = $data['values'][0]; // First row as headers
-    $rows = array_slice($data['values'], 1); // Remaining rows as data
-
-    ?>
+   
 
 </head>
 
@@ -84,14 +71,7 @@
 
 
                                         <tbody>
-                                            <?php foreach ($rows as $row): ?>
-
-                                                <tr>
-                                                    <?php foreach ($row as $cell): ?>
-                                                        <td><?php echo htmlspecialchars($cell); ?></td>
-                                                    <?php endforeach; ?>
-                                                </tr>
-                                            <?php endforeach; ?>
+                                           
                                         </tbody>
                                     </table>
                                 </div>
