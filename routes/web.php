@@ -28,6 +28,10 @@ Route::get('/solution', function () {
     return view('admin.solution');
 });
 
+Route::get('/stock', function () {
+    return view('admin.stock');
+});
+
 Route::get('/admin', function () {
     return view('admin.index');
 });

@@ -68,9 +68,9 @@
                   </li>
 
                   <li>
-                      <a href="javascript: void(0);" class=" waves-effect">
+                      <a href="stock" class=" waves-effect">
                           <i class="bx bx-briefcase-alt-2"></i>
-                          <span key="t-projects">Projects</span>
+                          <span key="t-projects">All Stock</span>
                       </a>
                    
                   </li>
