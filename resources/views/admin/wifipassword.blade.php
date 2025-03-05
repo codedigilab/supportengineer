@@ -64,7 +64,7 @@
 
                                     <h4 class="card-title text-end "><a class="btn btn-primary active" href="#">Add Laptop</a></h4>
                                     
-                                    <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+                                    <table id="datatable-buttons" class="table table-bordered border-success table table-bordered dt-responsive nowrap w-100">
                                         <thead>
                                          
                                             <tr>
