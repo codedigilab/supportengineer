@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-@include('Admin/Include.head')
+@include('admin/include.head')
 
 </head>
 
@@ -13,8 +13,8 @@
     <!-- Begin page -->
     <div id="layout-wrapper">
 
-    @include('Admin/Include.header')
-    @include('Admin/Include.sidebar')
+    @include('admin/include.header')
+    @include('admin/include.sidebar')
 
 
 
