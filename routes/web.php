@@ -20,6 +20,14 @@ Route::get('/storenumber', function () {
     return view('Admin/storenumber');
 });
 
+Route::get('/camera', function () {
+    return view('Admin/camera');
+});
+
+Route::get('/solution', function () {
+    return view('Admin/solution');
+});
+
 Route::get('/admin', function () {
     return view('Admin/index');
 });
