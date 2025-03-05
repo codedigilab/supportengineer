@@ -9,25 +9,25 @@ Route::get('/', function () {
 
 //Admin Panel
 Route::get('/laptop', function () {
-    return view('Admin/laptop');
+    return view('admin/laptop');
 });
 
 Route::get('/wifipassword', function () {
-    return view('Admin/wifipassword');
+    return view('admin/wifipassword');
 });
 
 Route::get('/storenumber', function () {
-    return view('Admin/storenumber');
+    return view('admin/storenumber');
 });
 
 Route::get('/camera', function () {
-    return view('Admin/camera');
+    return view('admin/camera');
 });
 
 Route::get('/solution', function () {
-    return view('Admin/solution');
+    return view('admin/solution');
 });
 
 Route::get('/admin', function () {
-    return view('Admin/index');
+    return view('admin/index');
 });
