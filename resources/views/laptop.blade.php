@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @include('Admin/Include.head')
+        @include('Admin/Include.head')
     <?php
     $sheet_id = "1SyFDvVPJ6ieDCG4URkw6i4Horb_KbGCQmzAsc_VJsCY";
     $api_key = "AIzaSyARbSMuMMY5GWue3dAarlWr8sfBX-dbTIg";
