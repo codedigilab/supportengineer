@@ -76,15 +76,10 @@
                   </li>
 
                   <li>
-                      <a href="javascript: void(0);" class="has-arrow waves-effect">
+                      <a href="posupdate" class="waves-effect">
                           <i class="bx bx-task"></i>
-                          <span key="t-tasks">Tasks</span>
+                          <span key="t-tasks">POS Version</span>
                       </a>
-                      <ul class="sub-menu" aria-expanded="false">
-                          <li><a href="tasks-list.html" key="t-task-list">Task List</a></li>
-                          <li><a href="tasks-kanban.html" key="t-kanban-board">Kanban Board</a></li>
-                          <li><a href="tasks-create.html" key="t-create-task">Create Task</a></li>
-                      </ul>
                   </li>
 
                   <li>

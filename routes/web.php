@@ -32,6 +32,10 @@ Route::get('/stock', function () {
     return view('admin.stock');
 });
 
+Route::get('/posupdate', function () {
+    return view('admin.posupdate');
+});
+
 Route::get('/admin', function () {
     return view('admin.index');
 });
