@@ -1,24 +1,25 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LaptopController;
 
-Route::get('/welcome', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('index');
+
+//Admin Panel
+Route::get('/laptop', function () {
+    return view('Admin/laptop');
 });
 
+Route::get('/wifipassword', function () {
+    return view('Admin/wifipassword');
+});
 
+Route::get('/storenumber', function () {
+    return view('Admin/storenumber');
+});
 
-
-
-//adminarea
 Route::get('/admin', function () {
-    return view('admin/index');
+    return view('Admin/index');
 });
-
-Route::get('/admin/laptop', [LaptopController::class, 'showJsonData']);
-Route::post('/admin/laptop', [LaptopController::class, 'handleForm'])->name('submit');
