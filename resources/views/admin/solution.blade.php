@@ -70,7 +70,9 @@
                                             <tr>
                                                 <th>Name</th>
                                                 <th>Problem</th>
+                                                <th>Remark</th>
                                                 <th>URL</th>
+                                                
                                             </tr>
                                         </thead>
 
