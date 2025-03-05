@@ -3,7 +3,7 @@
 
 <head>
 
-    @include('Admin/Include.head')
+    @include('admin/include.head')
     <?php
     $sheet_id = "1SyFDvVPJ6ieDCG4URkw6i4Horb_KbGCQmzAsc_VJsCY";
     $api_key = "AIzaSyARbSMuMMY5GWue3dAarlWr8sfBX-dbTIg";
@@ -28,8 +28,8 @@
     <!-- Begin page -->
     <div id="layout-wrapper">
 
-        @include('Admin/Include.header')
-        @include('Admin/Include.sidebar')
+        @include('admin/include.header')
+        @include('admin/include.sidebar')
 
         <!-- ============================================================== -->
         <!-- Start right Content here -->
@@ -127,7 +127,7 @@
     </div>
     <!-- END layout-wrapper -->
 
-    @include('Admin/Include.script')
+    @include('admin/include.script')
 
     <!-- Right bar overlay-->
 
