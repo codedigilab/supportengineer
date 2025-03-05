@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-
-        @include('Admin/Include.head')
-        <?php
+    @include('Admin/Include.head')
+    <?php
     $sheet_id = "1SyFDvVPJ6ieDCG4URkw6i4Horb_KbGCQmzAsc_VJsCY";
     $api_key = "AIzaSyARbSMuMMY5GWue3dAarlWr8sfBX-dbTIg";
     $range = "laptop";
@@ -30,7 +29,7 @@
 
         @include('Admin/Include.header')
         @include('Admin/Include.sidebar')
-      
+
         <!-- ============================================================== -->
         <!-- Start right Content here -->
         <!-- ============================================================== -->
@@ -63,10 +62,10 @@
                                 <div class="card-body">
 
                                     <h4 class="card-title text-end "><a class="btn btn-primary active" href="#">Add Laptop</a></h4>
-                                    
+
                                     <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
                                         <thead>
-                                         
+
                                             <tr>
                                                 <th>Laptop Type</th>
                                                 <th>Emp Code</th>
@@ -86,13 +85,13 @@
 
                                         <tbody>
                                             <?php foreach ($rows as $row): ?>
-                                                
+
                                                 <tr>
                                                     <?php foreach ($row as $cell): ?>
                                                         <td><?php echo htmlspecialchars($cell); ?></td>
                                                     <?php endforeach; ?>
                                                 </tr>
-                                            <?php endforeach; ?> 
+                                            <?php endforeach; ?>
                                         </tbody>
                                     </table>
                                 </div>
